@@ -1,0 +1,82 @@
+html{
+    background-image: url('blue.jpg');
+    background-repeat: none;
+    transition: all 1s ease-in-out 0s;
+    padding: 2%;
+    cursor: default;
+}
+
+h1 {
+    -moz-text-decoration-color: #ECECEC; /* Code for Firefox */
+    text-decoration-color: #ECECEC;
+    text-decoration: overline;
+    font-size: 32px;
+    padding: 10px;
+}
+
+a {
+    cursor: default;
+    text-decoration: none;
+    color: #ECECEC;
+}
+a:hover{
+    cursor: default;
+	color:#FFD1DC;
+}
+
+::selection {
+  background: #FFD1DC; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFD1DC; /* Gecko Browsers */
+}
+
+.main{
+    background-color: rgba(108,122,137, 0.6);
+    color: #ECECEC;
+    font-family: 'Anonymous Pro';
+    font-size: 18px;
+    text-rendering: optimizelegibility;   
+    width:            33%;
+    
+}
+
+.logbox{
+    background-color: rgba(108,122,137, 0.6);
+    color: #ECECEC;
+    font-family: 'Anonymous Pro';
+    font-size: 18px;
+    text-rendering: optimizelegibility;   
+    width: 50%;
+}
+
+.content{
+    border: 40px black;
+    padding: 10px;
+}
+
+.check-me-out{
+    padding-top: 10%;
+    font-size: 18px;
+}
+
+.aboutme{
+    padding-top: 10px;
+    font-size:    14px;
+    padding-left: 2%;
+}
+
+.contact{
+    padding-top: 10%;
+    font-size: 14px;
+}
+.email{
+    text-decoration: underline;
+}
+
+.cat{
+    padding-top: 10px;
+    float: right;
+    display: inline;
+    
+}
